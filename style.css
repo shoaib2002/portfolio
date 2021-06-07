@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header.top-header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./images/ABSTRACT_BACKGROUND_01.jpg);
+    background-size: cover;
+    height: 600px;
+}
+header.top-header nav ul li a{
+    text-decoration: none;
+    color: azure;
+}
+
+header.top-header nav ul li a:hover{
+    color: royalblue;
+}
+
+header.top-header nav ul li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    
+}
+
+header.top-header nav ul li.leftside{
+    float: right;
+    font-size: 25px;
+}
+
+nav ul::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+header.top-header nav ul li a.button{
+border-radius: 23px;
+background-color:azure;
+color: black;
+
+}
+
+
+
+header.top-header nav ul li a.button:hover{
+    color: royalblue;
+    background-color:rgba(0,0,0,0.5);
+}
+
+header div.container{
+    
+    color: azure;
+    text-align: center;
+    margin-top: 160px;
+}
+
+div.container .para{
+    color: deepskyblue;
+    padding: 15px;
+    font-size: 25px;
+}
+
+a.button{
+    text-decoration: none;
+    color: black;
+    background-color: azure;
+    font-size: 25px;
+    border-radius: 23px;
+    text-align: center;
+
+}
+
+a.button:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: royalblue;
+}
+
+div.container h1:hover{
+color: royalblue;
+}
+
+section.about-me h2.scndhead{
+    text-align: center;
+}
+div.flt p.matter{
+    text-align: left;
+}
+
+section.about-me div.flt div.container-2, section.about-me div.flt div.imge {
+    float: left;
+    width: 50%;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+section.about-me div.flt::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+section.about-me div.flt div.container-2{
+    text-align: left;
+    color: royalblue;
+}
+
+ div.academics, div.certifications, div.organisations, div.EC-projects{
+    float: left;
+    width: 33.3%;
+    margin-top: 25px;
+    
+    
+}
+
+p.subpara{
+    font-size: 25px;
+    margin: 45px;
+    text-align: left;
+    
+}
+
+
+div.container-3::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+div.container-3 p.desc{
+    color: chocolate;
+    font-size: 25px;
+    padding: 10px;
+}
+    
+div.container-4 p.thirdhead{
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+div.container-4 div.content-2 img, div.container-4 div.mainpara p{
+    float: left;
+    padding: 15px;
+    width: 50%;
+    
+
+}
+
+div.container-4::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+p.thirdhead{
+    text-align: center;
+}
+
+
+div.container-4 div.mainpara p{
+    margin-top: 75px;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+
+footer div.last-head{
+    text-align: center;
+}
+
+footer{
+    background-color: lightseagreen;
+}
+
+
+
+footer div.lastimg, footer div.end{
+    float: left;
+    width: 50%;
+
+}
+
+footer::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+
+div.end{
+    font-size: 25px;
+    margin-top: 200px;
+    
+}
+
+a.finbut{
+    color: black;
+    background-color: azure;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+a.finbut:hover{
+    color: royalblue;
+    background-color: black;
+}
+      
+
+
+
+
+
+
+
+  
+
+
+
