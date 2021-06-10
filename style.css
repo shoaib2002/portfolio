@@ -93,6 +93,10 @@ color: royalblue;
 section.about-me h2.scndhead{
     text-align: center;
 }
+
+section.about-me{
+    background-color:lightcoral;
+}
 div.flt p.matter{
     text-align: left;
 }
@@ -150,7 +154,11 @@ div.container-4 p.thirdhead{
     padding: 30px;
 }
 
-div.container-4 div.content-2 img, div.container-4 div.mainpara p{
+div.container-4{
+    background-color: palegoldenrod;
+}
+
+div.container-4 div.content-2 , div.container-4 div.mainpara{
     float: left;
     padding: 15px;
     width: 50%;
@@ -158,7 +166,7 @@ div.container-4 div.content-2 img, div.container-4 div.mainpara p{
 
 }
 
-div.container-4::after{
+div.container-4 div.box::after{
     display: block;
     clear: both;
     content: "";
@@ -215,6 +223,147 @@ a.finbut:hover{
     background-color: black;
 }
       
+
+@media(max-width:500px){
+
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+
+    header.top-header{
+        height: 50vh;
+        background-size: cover;
+        width: 100vw;
+    }
+    header.top-header nav ul li a{
+        display: none;
+    }
+     header.top-header div.container h1 {
+         font-size: 20px;
+     }
+     header.top-header div.container p.para{
+         font-size: 16px;
+
+     }
+     header.top-header div.container p.frstpara a.button{
+         font-size: 16px;
+     }
+
+     section.about-me div.flt div.container-2 p{
+         text-align: center;
+         width: 100vw;
+         font-size: 16px;
+     }
+     section.about-me div.flt div.container-2 div.imge{
+        width: 100vw; 
+        text-align: center;
+
+     }
+     section.about-me div.flt div.imge img{
+         width: 100vw;
+         float: none;
+         text-align: center;
+     }
+
+     div.container-3 div.academics{
+         width: 100vw;
+         text-align: center;
+     }
+     
+    div.container-3 div.academics, div.container-3 div.certifications, div.container-3 div.EC-projects{
+        width: 100vw;
+        float: none;
+        text-align: center;
+        
+        
+    }
+    div.container-3 div.academics p.desc{
+        margin: 0;
+        padding: 0;
+    }
+    div.container-3 div.certifications p.desc{
+        margin: 0;
+        padding: 0;
+    }
+    div.container-3 div.EC-projects p.desc{
+        margin: 0;
+        padding: 0;
+    }
+    div.container-3 div.academics p.subpara{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    div.container-3 div.certifications p.subpara{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    div.container-3 div.EC-projects p.subpara{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    div.container-4 div.content-2 , div.container-4 div.mainpara{
+        width:100vw
+    }
+
+    
+    div.container-4 div.content-2 img{
+        width: 100vw;
+        float: none;
+
+    }
+    div.container-4 p.thirdhead{
+        padding: 0;
+        margin: 0;
+    }
+    div.container-4 div.mainpara p{
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+
+    }
+
+    footer div.lastimg, footer div.end{
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        float: none;
+    }
+    footer div.lastimg img{
+        width: 100vw;
+    }
+    footer div.end dl{
+        text-align: center;
+        font-size: 16px;
+    }
+    footer div.end div.lastanc{
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+
+    
+}
+
+
+
+
+
+
 
 
 

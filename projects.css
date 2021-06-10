@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: darkkhaki;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ header.top-header{
+     background-image:  url(./images/609.jpg);
+     background-size: cover;
+     height: 300px;
+ }
+
+ header.top-header div.main-head {
+     text-align: center;
+     padding-top: 100px;
+
+    
+ }
+
+ header.top-header div.main-head h1{
+     color:goldenrod;
+     font-size: 45px;   
+ }
+ header.top-header div.main-head a{
+     text-decoration: none;
+     color:black;
+     background-color:lightgreen;
+     border-radius: 10px;
+     font-size: 25px;
+
+ }
+ header.top-header div.main-head a:hover{
+     background-color: mintcream;
+ }
+
+ header.top-header div.main-head p{
+     padding: 10px;
+ }
+
+ section div.container{
+     margin-top: 100px;
+     margin-left: 250px;
+     margin-right: 250px;
+     margin-bottom: 100px;
+ }
+
+ section div.container div.img{
+     background-color: orange;
+ }
+
+ section div.container div.img{
+     float: left;
+    width: 25%;
+    height: 133px;
+ }
+ section div.container div.matter{
+     float: left;
+    width: 75%;
+    background-color: lightsalmon;
+    height: 133px;
+ }
+
+ section div.container::after{
+     display: block;
+     clear: both;
+     content: "";
+ }
+
+
+ @media(max-width:500px){
+    html, body {
+        overflow-x: hidden;
+      }
+
+
+    header.top-header{
+        background-size: cover;
+        width: 100vw;
+        
+    }
+
+    header.top-header div.main-head h1{
+        font-size: 30px;
+    }
+   
+
+     section div.container{
+       margin: 0;
+        width: 100vw;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+        
+    }
+    section div.container div.img{
+        width: 100vw;
+    }
+    section div.container div.img img{
+        width: 100vw;
+    }
+    section div.container div.matter{
+        width: 100vw;
+        text-align: left;
+        
+    }
+
+    section div.container div.matter p{
+        font-size: 16px;
+    }
+
+
+
+ }
+
